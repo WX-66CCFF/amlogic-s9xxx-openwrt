@@ -19,6 +19,7 @@ on:
           - openwrt_main
           - lede_master
           - immortalwrt_master
+          - openwrt_openwrt-25.12
       openwrt_board:
         description: "Select device board"
         required: false
@@ -318,7 +319,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - hy
 
 env:
   TZ: Etc/UTC
